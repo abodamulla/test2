@@ -7,32 +7,32 @@ import Soha_Water_Small from './Images/Soha_Water_Small.jpeg'
 
 const Items = [
     {
-        name: 'Taanayel_Labneh_150g',
+        name: 'Taanayel Labneh 150g',
         price: 2.5,
         img: Taanayel_Labneh_150g,
     },
     {
-        name: 'Taanayel_Labneh_300g',
+        name: 'Taanayel Labneh 300g',
         price: 7.5,
         img: Taanayel_Labneh_300g,
     },
     {
-        name: 'Noodles_Yumi_Yumi',
+        name: 'Noodles Yumi Yumi',
         price: 7.5,
         img: Noodles_Yumi_Yumi,
     },
     {
-        name: 'Picon_Cheese_8_Pieces',
+        name: 'Picon Cheese 8 Pieces',
         price: 2.5,
         img: Picon_Cheese_8_Pieces,
     },
     {
-        name: 'Plein_Soleil_Sweet_Corn_180g',
+        name: 'Plein Soleil Sweet Corn 180g',
         price: 4.5,
         img: Plein_Soleil_Sweet_Corn_180g,
     },
     {
-        name: 'Soha_Water_Small',
+        name: 'Soha Water Small',
         price: 4.5,
         img: Soha_Water_Small,
     },

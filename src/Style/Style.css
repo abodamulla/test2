@@ -1,0 +1,124 @@
+.ulnav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: solid #cecece;
+  border-width: 0 0 3px 0;
+  color: #283688;
+  background-color: white;
+}
+
+.ulnav li {
+  min-width: 150px;
+  border: solid #bdbdbd;
+  border-width: 0 0 0 1px;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px;
+}
+
+.ulnav li:first-child {
+  border: none;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  min-width: 110px;
+}
+
+.ulnav li:first-child .icon {
+  font-size: xx-large;
+}
+
+.ulnav li:first-child span {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.ulnav li:first-child span p {
+  font-size: 10px;
+}
+
+.ulnav li:first-child span p:first-child {
+  font-size: initial;
+  font-weight: 700;
+}
+
+#type {
+  min-width: 125px;
+  padding: 10px;
+  font-size: small;
+  border: none;
+  border-radius: 50px;
+  outline: none;
+  background-color: #ff4d4d;
+  color: white;
+  text-align-last: center;
+  font-weight: 700;
+}
+
+.setting_Icon {
+  margin-top: 5px;
+}
+
+.cardy {
+  display: block;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-width: 10px;
+  max-width: initial;
+  max-width: 100px;
+}
+
+.cardy img {
+  width: 150px;
+  border: 1px solid rgba(128, 128, 128, 0.281);
+}
+
+@media (max-width: 501px) {
+  .cardy img {
+    -webkit-transition: width .3s;
+    transition: width .3s;
+    width: 145px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 655px) {
+  .cardy img {
+    -webkit-transition: width .3s;
+    transition: width .3s;
+    width: 130px;
+  }
+}
+
+.cardy p {
+  min-height: 20px;
+  max-height: 21px;
+  max-width: 150px;
+  color: #283688;
+  font-size: smaller;
+  margin: 5px 0 0 0;
+}
+
+.cardy p:last-child {
+  max-height: initial;
+  font-weight: 700;
+  margin: 20px 0;
+}
+/*# sourceMappingURL=Style.css.map */

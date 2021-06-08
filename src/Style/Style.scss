@@ -1,0 +1,95 @@
+$Main_Color: #283688;
+
+.ulnav {
+    display: flex;
+    align-items: center;
+    border: solid rgb(206, 206, 206);
+    border-width: 0 0 3px 0;
+    color: $Main_Color;
+    background-color: white;
+
+    li {
+        min-width: 150px;
+        border: solid rgb(189, 189, 189);
+        border-width: 0 0 0 1px;
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5px;
+        &:first-child {
+            border: none;
+            flex-direction: row;
+            min-width: 110px;
+            
+            .icon {
+                font-size: xx-large;
+            }
+            span {
+                flex-direction: row;
+                p {
+                    font-size: 10px;
+                    &:first-child {
+                        font-size: initial;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+#type {
+    min-width: 125px;
+    padding: 10px;
+    font-size: small;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    background-color: rgb(255, 77, 77);
+    color: white;
+    text-align-last: center;
+    font-weight: 700;
+
+}
+
+.setting_Icon {
+    margin-top: 5px;
+}
+
+.cardy {
+    display: block;
+    flex-direction: column;
+    min-width: 10px;
+    max-width: initial;
+    max-width: 100px;
+
+    
+    img {
+        width: 150px;
+        border: 1px solid rgba(128, 128, 128, 0.281);
+        @media (max-width: '501px') {
+            transition: width .3s;
+            width: 145px;
+        }
+        @media (min-width: '600px') and (max-width: '655px') {
+            transition: width .3s;
+            width: 130px;
+        }
+    
+    }
+    p {
+        min-height: 20px;
+        max-height: 21px;
+        max-width: 150px;
+        color: $Main_Color;
+        font-size: smaller;
+        margin: 5px 0 0 0;
+        &:last-child {
+            max-height: initial;
+            font-weight: 700;
+            margin: 20px 0;
+        }
+    }
+}
